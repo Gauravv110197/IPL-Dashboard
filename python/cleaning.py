@@ -1,10 +1,7 @@
-
 import pandas as pd
-
 # Load IPL datasets
 matches = pd.read_csv("dataset/matches.csv")
 deliveries = pd.read_csv("dataset/deliveries.csv")
-
 # Display original dataset size
 print("Original Matches:", matches.shape)
 print("Original Deliveries:", deliveries.shape)

@@ -1,6 +1,4 @@
-
 import pandas as pd
-
 # Load cleaned deliveries data
 df = pd.read_csv("dataset/cleaned_deliveries.csv")
 
